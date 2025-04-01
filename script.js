@@ -24,7 +24,7 @@ if (calificacion >= 0 && calificacion <= 100) {
 
 // Verificar que la nota sea un valor válido (entre 0 y 100)
 if (calificacion >= 0 && calificacion <= 100) {
-    console.log(`El estudiante obtuvo una nota de: ${nota}`);
+    console.log(`El estudiante obtuvo una nota de: ${calificacion}`);
     
     // Evaluar la nota y mostrar el mensaje correspondiente
     if (calificacion >= 90) {
